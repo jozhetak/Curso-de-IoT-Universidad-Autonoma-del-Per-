@@ -1,5 +1,6 @@
 
-sudo apt-get install mosquitto mosquitto-clients
+sudo apt-get install mosquitto 
+sudo apt-get install  mosquitto-clients
 sudo ufw allow 1883
 
 
@@ -15,7 +16,7 @@ sudo ufw allow 1883
 ////////////////OPCIONAL/////////////////////////////////
 
 
-#Opcional , Agregando nombre de usuario y contraseña
+#Opcional , Agregando nombre de usuario y contraseÃ±a
 		#aqui puede crear un usuario para mosquitto
 sudo mosquitto_passwd -c /etc/mosquitto/passwd sammy   
 
