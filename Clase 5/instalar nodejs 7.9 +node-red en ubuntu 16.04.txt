@@ -2,8 +2,9 @@
 sudo apt-get update
 
 ///////////////////////
+curl -sL http://deb.nodesource.com/setup_8.x | sudo bash -
+
 sudo apt-get install nodejs
-sudo apt-get install npm
 		
 // instalarnode-red
 sudo npm install -g --unsafe-perm node-red node-red-admin
@@ -49,4 +50,4 @@ sudo systemctl start node-red    //iniciar servicoo de node-red
 sudo systemctl status node-red     //verificar estado de servicio
 
 #LUEGO DIRIGIRSE AL NAVEGADOR Y ESCRIBIR EN LA BARRA DE DIRECCIONES:
-http://localhost:1880  ó  http://127.0.0.1:1880 ó http://[IP DEL HOST]:1880
+http://localhost:1880  Ã³  http://127.0.0.1:1880 Ã³ http://[IP DEL HOST]:1880
