@@ -1,6 +1,6 @@
 #ejectutar todo como usuario root
 sudo apt-get update
-
+sudo su 
 ///////////////////////
 curl -sL http://deb.nodesource.com/setup_8.x | sudo bash -
 
@@ -8,7 +8,7 @@ sudo apt-get install nodejs
 		
 // instalarnode-red
 sudo npm install -g --unsafe-perm node-red node-red-admin
-sudo ufw allow 1880
+
 #node-red    //comando para iniciar node-red
 
 #agregando usuario con permisos de root
